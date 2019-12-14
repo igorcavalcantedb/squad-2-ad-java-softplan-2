@@ -5,10 +5,10 @@ spring:
       enabled: true
       path: /h2-console
   datasource:
-    url: "jdbc:mysql://remotemysql.com:3306/f6uQFipjWh"
-    driverClassName: com.mysql.jdbc.Driver
-    username: f6uQFipjWh
-    password: 33jULpa4L5
+    url: "jdbc:postgresql://ec2-54-225-76-136.compute-1.amazonaws.com:5432/d2j55j1bcogqep"
+    driverClassName: org.postgresql.Driver
+    username: srmxmboalippmb
+    password: ac53edabfad1a292658aa209520bb010103e778245a4bec4be9a873259a0d10b
   jpa.hibernate.ddl-auto: create
 
 
